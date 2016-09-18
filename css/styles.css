@@ -81,7 +81,10 @@ Publications Section*/
 
 }
 .publisher {
-
+  font-style: italic;
+}
+.quote-icon {
+  padding: 0 5px 5px;
 }
 .read-more-btn {
 
@@ -89,11 +92,11 @@ Publications Section*/
 .btn-box {
   text-align: center;
   margin: 0 auto;
-  padding: 5px;
 }
 .read-more-btn {
   border-radius: 0;
   background-color: #558DC1;
+  color: white;
 }
 /*End Publications Section
 ****************/
