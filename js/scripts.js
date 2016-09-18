@@ -1,10 +1,26 @@
 $(window).scroll(function() {
     var fromTop = $(this).scrollTop();
     if (fromTop >= $('#banner-box').height()) {
-        $('#quote-box').addClass('fixed');
-        console.log("added");
+        $('#sticky-section').addClass('fixed');
+        $('#quote-box').addClass('smaller');
     } else {
-        $('#quote-box').removeClass('fixed');
-        console.log("removed");
+        $('#sticky-section').removeClass('fixed');
+        $('#quote-box').removeClass('smaller');
     }
+});
+
+var scrollAnimation = function(destination) {
+  $('html, body').animate({
+    scrollTop: $(destination).offset().top
+  }, 1000);
+};
+
+$(".about-nav").click(function() {
+  scrollAnimation("#about");
+});
+$(".publications-nav").click(function() {
+  scrollAnimation("#publications");
+});
+$(".projects-nav").click(function() {
+  scrollAnimation("#projects");
 });
