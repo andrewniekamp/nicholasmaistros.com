@@ -11,18 +11,11 @@
 }
 body {
   font-family: 'texgyreadventorregular';
-}
-.underline {
-  border-bottom: 3px solid;
-  width: auto;
-  max-width: 200px;
-  margin: 0 auto 40px 40px;
-}
-.section-header {
-
+  color: #333;
 }
 .topic {
   margin-top: 40px;
+  padding-left: 10px;
 }
 a.anchor {
     display: block;
@@ -30,6 +23,8 @@ a.anchor {
     top: -125px;
     visibility: hidden;
 }
+
+
 
 /****************
 Banner Section*/
@@ -54,12 +49,6 @@ Banner Section*/
 }
 .banner-name.last {
   margin-top: 0;
-}
-.underline.yellow {
-  max-width: 400px;
-  margin: 0 auto 200px 15%;
-  border-width: 5px;
-  border-color: #C8AB0D;
 }
 #quote-box {
   text-align: center;
@@ -90,11 +79,11 @@ Banner Section*/
 .footer-navbar i {
   font-size: 18px;
 }
-.footer-navbar a:visited {
+.footer-navbar a, .footer-navbar a:visited {
   color: white;
 }
 .footer-navbar a:hover {
-  color: black;
+  color: #444;
 }
 .about-nav, .publications-nav, .projects-nav, .share-nav {
   padding-top: 3px;
@@ -119,6 +108,9 @@ Banner Section*/
 
 /****************
 About Section*/
+.section-header.yellow {
+  color: #C8AB0D
+}
 #bio-box {
   padding-bottom: 50px;
 }
@@ -138,9 +130,8 @@ About Section*/
 
 /****************
 Publications Section*/
-.underline.blue {
-  border-width: 3px;
-  border-color: #558DC1;
+.section-header.blue {
+  color: #558DC1;
 }
 .publication-box {
   padding: 10px 20px 20px 50px;
@@ -163,9 +154,8 @@ Publications Section*/
 
 /****************
 Projects Section*/
-.underline.red {
-  border-width: 3px;
-  border-color: #993300;
+.section-header.red {
+  color: #993300;
 }
 .project-box {
   padding: 20px 20px 20px 50px;
