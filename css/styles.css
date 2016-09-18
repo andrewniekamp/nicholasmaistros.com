@@ -5,14 +5,16 @@ body {
 .container {
   background-color: white;
 }
-
 /*END TESTING*/
 
 /*General Usage*/
 .underline {
-  border-bottom: 3px solid #C8AB0D;
+  border-bottom: 3px solid;
   width: 70%;
   margin: 0 auto 40px;
+}
+.section-header {
+
 }
 
 /****************
@@ -37,6 +39,7 @@ Banner Section*/
 }
 .underline.yellow {
   border-width: 5px;
+  border-color: #C8AB0D;
 }
 #quote-box {
   background-color: #C8AB0D;
@@ -48,9 +51,9 @@ Banner Section*/
 
 
 /****************
-Banner Section*/
+About Section*/
 #bio-box {
-
+  padding-bottom: 50px;
 }
 #writer-photo {
   float: left;
@@ -63,7 +66,34 @@ Banner Section*/
   padding-top: 15px;
 
 }
+/*End About Section
+****************/
 
 
-/*End Banner Section
+
+/****************
+Publications Section*/
+.underline.blue {
+  border-width: 3px;
+  border-color: #558DC1;
+}
+.publication-box {
+
+}
+.publisher {
+
+}
+.read-more-btn {
+
+}
+.btn-box {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+}
+.read-more-btn {
+  border-radius: 0;
+  background-color: #558DC1;
+}
+/*End Publications Section
 ****************/
