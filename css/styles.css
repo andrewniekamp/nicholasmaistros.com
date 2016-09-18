@@ -1,5 +1,18 @@
-
 /*General Usage*/
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('tex/texgyreadventor-regular-webfont.eot');
+    src: url('tex/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tex/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('tex/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('tex/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+  font-family: 'texgyreadventorregular';
+}
 .underline {
   border-bottom: 3px solid;
   width: auto;
