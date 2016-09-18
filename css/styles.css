@@ -28,17 +28,21 @@ body {
 
 /****************
 Banner Section*/
+#landing-box {
+  height: 90vh;
+}
 #banner-box {
   background: url("../images/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 70vh;
   padding: 20px 20px 30px;
 }
 .banner-name {
   padding-left: 10%;
-  font-size: 38px;
+  font-size: 42px;
 }
 .banner-name.first {
 
@@ -48,14 +52,19 @@ Banner Section*/
 }
 .underline.yellow {
   max-width: 400px;
-  margin: 0 auto 40px 15%;
+  margin: 0 auto 200px 15%;
   border-width: 5px;
   border-color: #C8AB0D;
 }
 #quote-box {
   background-color: #C8AB0D;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+}
+#quote-box.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 /*End Banner Section
 ****************/
@@ -91,13 +100,15 @@ Publications Section*/
   padding: 10px 20px 20px 50px;
 }
 .publisher {
-  font-style: italic;
+  text-transform: uppercase;
+  padding-left: 50px;
+  /*font-style: italic;*/
 }
 .quote-icon {
   padding: 0 5px 5px;
 }
-.read-more-btn {
-
+.read-more {
+  padding-top: 10px;
 }
 .btn-box {
   text-align: center;
