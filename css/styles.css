@@ -1,20 +1,16 @@
-/*TESTING*/
-body {
-  background-color: steelblue;
-}
-.container {
-  background-color: white;
-}
-/*END TESTING*/
 
 /*General Usage*/
 .underline {
   border-bottom: 3px solid;
-  width: 70%;
-  margin: 0 auto 40px;
+  width: auto;
+  max-width: 200px;
+  margin: 0 auto 40px 40px;
 }
 .section-header {
 
+}
+.topic {
+  margin-top: 40px;
 }
 
 /****************
@@ -38,12 +34,15 @@ Banner Section*/
   margin-top: 0;
 }
 .underline.yellow {
+  max-width: 400px;
+  margin: 0 auto 40px 15%;
   border-width: 5px;
   border-color: #C8AB0D;
 }
 #quote-box {
   background-color: #C8AB0D;
   text-align: center;
+  padding: 20px;
 }
 /*End Banner Section
 ****************/
@@ -58,12 +57,10 @@ About Section*/
 #writer-photo {
   float: left;
   margin-right: 10px;
-  margin-top: 15px;
   width: 45%;
   max-width: 275px;
 }
 .bio-content {
-  padding-top: 15px;
 
 }
 /*End About Section
@@ -78,7 +75,7 @@ Publications Section*/
   border-color: #558DC1;
 }
 .publication-box {
-
+  padding: 10px 20px 20px 50px;
 }
 .publisher {
   font-style: italic;
@@ -97,6 +94,22 @@ Publications Section*/
   border-radius: 0;
   background-color: #558DC1;
   color: white;
+  margin-bottom: 20px;
 }
 /*End Publications Section
+****************/
+
+
+
+/****************
+Projects Section*/
+.underline.red {
+  border-width: 3px;
+  border-color: #993300;
+}
+.project-box {
+  padding: 20px 20px 20px 50px;
+  /*padding: 20px 100px;*/
+}
+/*End Projects Section
 ****************/
