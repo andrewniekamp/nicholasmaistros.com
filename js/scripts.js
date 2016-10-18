@@ -13,7 +13,7 @@ $(window).scroll(function() {
 
 var scrollAnimation = function(destination) {
   $('html, body').animate({
-    scrollTop: $(destination).offset().top
+    scrollTop: $(destination).offset().top-55
   }, 1000);
 };
 

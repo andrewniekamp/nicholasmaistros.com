@@ -34,7 +34,7 @@ a.anchor {
 /****************
 Banner Section*/
 #landing-box {
-  max-height: 90vh;
+  min-height: 90vh;
 }
 #banner-box {
   background: url("../images/bg.jpg") no-repeat center top fixed;
@@ -43,7 +43,13 @@ Banner Section*/
   -o-background-size: cover;
   background-size: cover;
   min-height: 90vh;
+  padding: 0;
+}
+.transparent-overlay {
+  width: 100%;
+  min-height: 90vh;
   padding: 20px 20px 30px;
+  background-color: rgba(169, 169, 169, 0.35);
 }
 .banner-name {
   padding-left: 65%;
@@ -70,6 +76,9 @@ Banner Section*/
 }
 #quote-box.smaller p {
   margin-bottom: 10px;
+}
+#sticky-section {
+  height: 235px;
 }
 #sticky-section.fixed {
   position: fixed;
@@ -123,7 +132,6 @@ About Section*/
   color: #C8AB0D;
 }
 #bio-box {
-  margin-top: 75px;
   padding-bottom: 50px;
 }
 #writer-photo {
@@ -167,6 +175,9 @@ Publications Section*/
 
 /****************
 Projects Section*/
+.projects-row {
+  padding-bottom: 50px;
+}
 .section-header.red {
   padding-top: 20px;
   color: #993300;
@@ -206,7 +217,10 @@ Projects Section*/
   }
   .about-nav, .publications-nav, .projects-nav, .share-nav {
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 8px;
     font-size: 10px;
+  }
+  .anchor {
+    margin-top: 40px;
   }
 }
