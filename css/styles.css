@@ -23,7 +23,9 @@ a.anchor {
     top: -125px;
     visibility: hidden;
 }
-
+.padded-container {
+  padding-top: 230px;
+}
 
 
 /****************
@@ -55,12 +57,12 @@ Banner Section*/
 #quote-box {
   text-align: center;
   background-color: white;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 22px;
+  padding: 20px;
 }
 #quote-box.smaller {
-  font-size: 16px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 8px;
 }
 #quote-box.smaller p {
   margin-bottom: 10px;
@@ -91,6 +93,7 @@ Banner Section*/
   font-size: 14px;
   padding-top: 7px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 .about-nav {
   background-color: #C8AB0D;
@@ -112,9 +115,11 @@ Banner Section*/
 /****************
 About Section*/
 .section-header.yellow {
-  color: #C8AB0D
+  padding-top: 20px;
+  color: #C8AB0D;
 }
 #bio-box {
+  margin-top: 75px;
   padding-bottom: 50px;
 }
 #writer-photo {
@@ -134,6 +139,7 @@ About Section*/
 /****************
 Publications Section*/
 .section-header.blue {
+  padding-top: 20px;
   color: #558DC1;
 }
 .publication-box {
@@ -158,6 +164,7 @@ Publications Section*/
 /****************
 Projects Section*/
 .section-header.red {
+  padding-top: 20px;
   color: #993300;
 }
 .project-box {

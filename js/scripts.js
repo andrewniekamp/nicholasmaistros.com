@@ -3,9 +3,11 @@ $(window).scroll(function() {
     if (fromTop >= $('#banner-box').height()) {
         $('#sticky-section').addClass('fixed');
         $('#quote-box').addClass('smaller');
+        $('.main-container').addClass('padded-container');
     } else {
         $('#sticky-section').removeClass('fixed');
         $('#quote-box').removeClass('smaller');
+        $('.main-container').removeClass('padded-container');
     }
 });
 
