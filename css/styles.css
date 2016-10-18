@@ -69,10 +69,11 @@ Banner Section*/
   font-size: 22px;
   padding: 20px;
   font-weight: bold;
+  min-height: 185px;
 }
 #quote-box.smaller {
   font-size: 20px;
-  padding: 8px;
+  padding: 15px;
 }
 #quote-box.smaller p {
   margin-bottom: 10px;
@@ -203,10 +204,12 @@ Projects Section*/
   }
   .banner-name {
     font-size: 30px;
+    padding-left: 60%;
   }
   #quote-box {
     font-size: 14px;
     padding: 10px;
+    min-height: 160px;
   }
   #quote-box.smaller {
     font-size: 12px;
@@ -221,6 +224,8 @@ Projects Section*/
   .about-nav, .publications-nav, .projects-nav, .share-nav {
     padding-top: 3px;
     padding-bottom: 8px;
+  }
+  .footer-navbar p {
     font-size: 10px;
   }
   .anchor {
