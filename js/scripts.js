@@ -25,7 +25,7 @@ $(window).scroll(function() {
 
 var scrollAnimation = function(destination) {
   $('html, body').animate({
-    scrollTop: $(destination).offset().top-55
+    scrollTop: $(destination).offset().top-120
   }, 1000);
 };
 
