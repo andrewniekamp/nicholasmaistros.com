@@ -29,20 +29,22 @@ a.anchor {
 /****************
 Banner Section*/
 #landing-box {
-  height: 90vh;
+  max-height: 90vh;
 }
 #banner-box {
-  background: url("../images/bg.jpg") no-repeat center center fixed;
+  background: url("../images/bg.jpg") no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 90vh;
   padding: 20px 20px 30px;
 }
 .banner-name {
-  padding-left: 10%;
-  font-size: 42px;
+  padding-left: 65%;
+  font-size: 90px;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 .banner-name.first {
 
@@ -53,22 +55,22 @@ Banner Section*/
 #quote-box {
   text-align: center;
   background-color: white;
-  font-size: 14px;
+  font-size: 18px;
   padding: 10px;
 }
 #quote-box.smaller {
-  font-size: 12px;
+  font-size: 16px;
   padding: 5px;
 }
 #quote-box.smaller p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 #sticky-section.fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-    font-size: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  font-size: 14px;
 }
 .footer-navbar {
   text-align: center;
@@ -86,8 +88,9 @@ Banner Section*/
   color: #444;
 }
 .about-nav, .publications-nav, .projects-nav, .share-nav {
-  padding-top: 3px;
-  padding-bottom: 3px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 10px;
 }
 .about-nav {
   background-color: #C8AB0D;
@@ -163,3 +166,33 @@ Projects Section*/
 }
 /*End Projects Section
 ****************/
+
+@media only screen and (max-width:800px) {
+  #banner-box {
+    background-size: 100%;
+    background-position: 0px 0px;
+    min-height: 30vh;
+  }
+  .banner-name {
+    font-size: 30px;
+  }
+  #quote-box {
+    font-size: 14px;
+    padding: 10px;
+  }
+  #quote-box.smaller {
+    font-size: 12px;
+    padding: 5px;
+  }
+  #quote-box.smaller p {
+    margin-bottom: 5px;
+  }
+  #sticky-section.fixed {
+    font-size: 10px;
+  }
+  .about-nav, .publications-nav, .projects-nav, .share-nav {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 10px;
+  }
+}
