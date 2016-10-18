@@ -40,6 +40,8 @@ $(".projects-nav").click(function() {
 });
 
 $(document).ready(function() {
+  var num = Math.floor(Math.random() * (quotes.length));
+  $(".quote-fader").html(quotes[num]);
   setInterval(
       function rotateQuote() {
         var num = Math.floor(Math.random() * (quotes.length));
