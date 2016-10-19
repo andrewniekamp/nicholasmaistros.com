@@ -50,5 +50,5 @@ $(document).ready(function() {
         $(".quote-fader").fadeIn(function() {
           $(".quote-fader").html(quotes[num]);
         });
-      }, 5000);
+      }, 15000);
 });
