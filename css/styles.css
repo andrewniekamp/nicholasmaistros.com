@@ -15,44 +15,46 @@ body {
 }
 body p {
   font-size: 22px;
+  margin-bottom: 30px;
+}
+.nav-p {
+  margin-bottom: 10px;
 }
 .topic {
   margin-top: 40px;
   padding-left: 10px;
 }
 a.anchor {
-    display: block;
-    position: relative;
-    top: -125px;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -125px;
+  visibility: hidden;
+}
+a.nav-padding {
+  top: 0px;
 }
 .padded-container {
-  padding-top: 230px;
+  padding-top: 200px;
 }
 
 
 /****************
 Banner Section*/
 #landing-box {
-  max-height: 90vh;
+  max-height: 92vh;
 }
 #banner-box {
-  background: url("../images/bg.jpg") no-repeat center top fixed;
+  background: url("../images/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 90vh;
+  min-height: 92vh;
   padding: 0;
 }
-.transparent-overlay {
-  width: 100%;
-  min-height: 90vh;
-  padding: 20px 20px 30px;
-  background-color: rgba(169, 169, 169, 0.35);
-}
 .banner-name {
-  padding-left: 65%;
+  padding-top: 10px;
+  padding-left: 15%;
   font-size: 90px;
   color: white;
   text-shadow: 2px 2px black;
@@ -65,21 +67,22 @@ Banner Section*/
 }
 #quote-box {
   text-align: center;
-  background-color: white;
-  font-size: 22px;
+
   padding: 20px;
-  font-weight: bold;
-  min-height: 185px;
+  width: 45%;
+  margin: 8% auto auto 10%;
 }
-#quote-box.smaller {
-  font-size: 20px;
-  padding: 15px;
+.quote-fader {
+  background-color: rgba(255,255,255,0.8);
+  padding: 20px;
 }
-#quote-box.smaller p {
-  margin-bottom: 10px;
+.quote-fader p {
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 8px;
 }
 #sticky-section {
-  height: 235px;
+  min-height: 8vh
 }
 #sticky-section.fixed {
   position: fixed;
@@ -93,6 +96,9 @@ Banner Section*/
   color: white;
   font-size: 10px;
   margin: 0;
+}
+.nav-p {
+  font-size: 14px;
 }
 .footer-navbar i {
   font-size: 18px;
@@ -195,28 +201,16 @@ Projects Section*/
     font-size: 14px;
   }
   #banner-box {
-    background-size: 100%;
-    background-position: 0px 0px;
-    min-height: 30vh;
-  }
-  .transparent-overlay {
-    min-height: 30vh;
+    background-size: cover;
+    background-position: 85%;
+    min-height: 92vh;
   }
   .banner-name {
     font-size: 30px;
-    padding-left: 60%;
+    padding-left: 15%;
   }
   #quote-box {
-    font-size: 14px;
-    padding: 10px;
-    min-height: 160px;
-  }
-  #quote-box.smaller {
-    font-size: 12px;
-    padding: 5px;
-  }
-  #quote-box.smaller p {
-    margin-bottom: 5px;
+    display: none;
   }
   #sticky-section.fixed {
     font-size: 10px;
